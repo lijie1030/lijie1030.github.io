@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"RECOVER_婆婆_HTML5 Canvas_atlas_1", frames: [[0,0,686,681],[0,683,426,369],[688,670,539,546],[688,0,571,668],[0,1054,377,302]]}
+		{name:"婆婆_HTML5 Canvas_atlas_1", frames: [[0,0,686,681],[0,683,426,369],[688,670,539,546],[688,0,571,668],[0,1054,377,302]]}
 ];
 
 
@@ -28,35 +28,35 @@ lib.ssMetadata = [
 
 
 (lib.圖層1 = function() {
-	this.initialize(ss["RECOVER_婆婆_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["婆婆_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.圖層3 = function() {
-	this.initialize(ss["RECOVER_婆婆_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["婆婆_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.萼婆婆01 = function() {
-	this.initialize(ss["RECOVER_婆婆_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["婆婆_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.萼婆婆02 = function() {
-	this.initialize(ss["RECOVER_婆婆_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["婆婆_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.萼婆婆03 = function() {
-	this.initialize(ss["RECOVER_婆婆_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["婆婆_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -238,7 +238,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.RECOVER_婆婆_HTML5Canvas = function(mode,startPosition,loop,reversed) {
+(lib.婆婆_HTML5Canvas = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -408,14 +408,14 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-499.2,112.5,1850.4,796.6);
 // library properties:
 lib.properties = {
-	id: '6F9C973AAC85D94BA6729F897E2F57B0',
+	id: '0B5C101CCBB6094CBCC571844480777E',
 	width: 686,
 	height: 681,
 	fps: 10,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/RECOVER_婆婆_HTML5 Canvas_atlas_1.png?1729077118062", id:"RECOVER_婆婆_HTML5 Canvas_atlas_1"}
+		{src:"images/婆婆_HTML5 Canvas_atlas_1.png?1729127497382", id:"婆婆_HTML5 Canvas_atlas_1"}
 	],
 	preloads: []
 };
@@ -453,7 +453,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['6F9C973AAC85D94BA6729F897E2F57B0'] = {
+an.compositions['0B5C101CCBB6094CBCC571844480777E'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
